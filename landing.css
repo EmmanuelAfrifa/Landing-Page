@@ -89,15 +89,26 @@ body {
     right: 6.4%;
 }
 
-
-
-#download-button {
+#buttons {
     width: 51.2%;
-    height: 58px;
+    height: 132px;
     position: absolute;
     top: 553px;
     left: 24.4%;
     right: 24.4%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+#download-button {
+    width: 193px;
+    height: 58px;
+    position: absolute;
+    top: 0%;
     border-radius: 50px;
     color: #ffffff;
     background-color: #4D96A9;
@@ -107,11 +118,10 @@ body {
 
 
 #download-button:hover {
-    width: 51.2%;
+    width: 193px;
     height: 58px;
     position: absolute;
-    left: 24.4%;
-    right: 24.4%;
+    top: 0%;
     border-radius: 50px;
     color: #ffffff;
     background-color: #71C0D4;
@@ -145,12 +155,10 @@ body {
 }
 
 #what-button {
-    width: 37%;
+    width: 139px;
     height: 58px;
     position: absolute;
-    top: 627px;
-    left: 31.5%;
-    right: 31.5%;
+    top: 56%;
     background-color: #8557b1;
     border-radius: 50px;
     border: none;
@@ -164,12 +172,10 @@ body {
 
 
 #what-button:hover {
-    width: 37%;
+    width: 139px;
     height: 58px;
     position: absolute;
-    top: 627px;
-    left: 31.5%;
-    right: 31.5%;
+    top: 56%;
     background-color: #B18BDD;
     border-radius: 50px;
     border: none;
@@ -335,7 +341,7 @@ body {
 
 #bottom-info {
     background-color: #4D96A9;
-    background-image: linear-gradient(0deg, #4D96A9d1, #4D96A9d1),url(./meet-landing-page/starter-code/assets/mobile/image-footer.jpg); 
+    background-image: linear-gradient(0deg, #4D96A9d1, #4D96A9d1),url(./meet-landing-page/assets/mobile/image-footer.jpg); 
     background-size: 100% 100%;
     background-repeat: no-repeat;
     width: 100%;
@@ -516,15 +522,26 @@ body {
         right: 20.25%;
     }
 
-
-
-
-    #download-button {
-        width: 25.2%;
+    #buttons {
+        width: 45.3%;
         height: 58px;
         position: absolute;
         top: 719px;
         left: 27.3%;
+        right: 27.3%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+
+    #download-button {
+        width: 193px;
+        height: 58px;
+        position: absolute;
+        left: 0%;
         border-radius: 50px;
         color: #ffffff;
         background-color: #4D96A9;
@@ -534,11 +551,10 @@ body {
     
     
     #download-button:hover {
-        width: 25.2%;
+        width: 193px;
         height: 58px;
         position: absolute;
-        top: 719px;
-        left: 27.3%;
+        left: 0%;
         border-radius: 50px;
         color: #ffffff;
         background-color: #71C0D4;
@@ -572,12 +588,11 @@ body {
     }
     
     #what-button {
-        width: 18.1%;
+        width: 139px;
         height: 58px;
         position: absolute;
-        top: 719px;
-        left: 54.5%;
-        right: 27.3%;
+        top: 0%;
+        left: 60%;
         background-color: #8557b1;
         border-radius: 50px;
         border: none;
@@ -591,12 +606,11 @@ body {
     
     
     #what-button:hover {
-        width: 18.1%;
+        width: 139px;
         height: 58px;
         position: absolute;
-        top: 719px;
-        left: 54.5%;
-        right: 27.3%;
+        top: 0%;
+        left: 60%;
         background-color: #B18BDD;
         border-radius: 50px;
         border: none;
@@ -765,7 +779,7 @@ body {
     
     #bottom-info {
         background-color: #4D96A9;
-        background-image: linear-gradient(0deg, #4D96A9d1, #4D96A9d1),url(./meet-landing-page/starter-code/assets/tablet/image-footer.jpg); 
+        background-image: linear-gradient(0deg, #4D96A9d1, #4D96A9d1),url(./meet-landing-page/assets/tablet/image-footer.jpg); 
         background-size: 100% 100%;
         background-repeat: no-repeat;
         width: 100%;
@@ -949,7 +963,7 @@ body {
         height: 58px;
         position: absolute;
         top: 462px;
-        left: 38%;
+        left: 37.5%;
     }
 
 
@@ -1156,7 +1170,7 @@ body {
 
     #bottom-info {
         background-color: #4D96A9;
-        background-image: linear-gradient(0deg, #4D96A9d1, #4D96A9d1),url(./meet-landing-page/starter-code/assets/desktop/image-footer.jpg); 
+        background-image: linear-gradient(0deg, #4D96A9d1, #4D96A9d1),url(./meet-landing-page/assets/desktop/image-footer.jpg); 
         background-size: 100% 100%;
         background-repeat: no-repeat;
         width: 100%;
