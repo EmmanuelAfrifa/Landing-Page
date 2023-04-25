@@ -6,6 +6,13 @@ body {
     padding: 0px;
     width: 100%;
     box-sizing: border-box;
+    font-family: 'Red Hat Display';
+}
+
+.paragraph-fonts {
+    font-weight: 500;
+    line-height: 26px;
+    text-align: center;
 }
 
 #header {
@@ -60,7 +67,6 @@ body {
     top: 331px;
     left: 6.4%;
     right: 6.4%;
-    font-family: 'Red Hat Display';
     font-weight: 900;
     font-size: 40px;
     line-height: 44px;
@@ -74,11 +80,7 @@ body {
 
 #description {
     color: #87879D;
-    font-family: 'Red Hat Display';
-    font-weight: 500;
     font-size: 16px;
-    line-height: 26px;
-    text-align: center;
     width: 87.2%;
     height: 78px;
     margin: 0px;
@@ -118,37 +120,27 @@ body {
 
 
 #download-button:hover {
-    width: 193px;
-    height: 58px;
-    position: absolute;
-    top: 0%;
-    border-radius: 50px;
-    color: #ffffff;
     background-color: #71C0D4;
-    border: none;
-    cursor: pointer;
 }
 
 
 #download {
-    font-family: 'Red Hat Display';
     font-size: min(4vw,16px);
     line-height: 26px;
     font-weight: 900;
     position: absolute;
-    left: 20.75%;
+    left: 18.75%;
     top: 16px;
     
 }
 
 #version {
-    font-family: 'Red Hat Display';
     font-size: min(4vw,16px);
     line-height: 26px;
     font-weight: 900;
     position: absolute;
     top: 16px;
-    left: 63.7%;
+    left: 66.7%;
     height: 26px;
     width: 15.5%;
     color: #8fe3f9;
@@ -163,7 +155,6 @@ body {
     border-radius: 50px;
     border: none;
     color: #ffffff;
-    font-family: 'Red Hat Display';
     font-weight: 900;
     font-size: min(4vw,16px);
     line-height: 26px;
@@ -172,19 +163,7 @@ body {
 
 
 #what-button:hover {
-    width: 139px;
-    height: 58px;
-    position: absolute;
-    top: 56%;
     background-color: #B18BDD;
-    border-radius: 50px;
-    border: none;
-    color: #ffffff;
-    font-family: 'Red Hat Display';
-    font-weight: 900;
-    font-size: min(4vw,16px);
-    line-height: 26px;
-    cursor: pointer;
 }
 
 #my1 {
@@ -218,7 +197,6 @@ body {
 }
 
 #text-01 {
-    font-family: 'Red Hat Display';
     font-weight: 900;
     color: #87879d;
     position: absolute;
@@ -261,7 +239,6 @@ body {
     position: absolute;
     left: 8.6%;
     right: 8.6%;
-    font-family: 'Red Hat Display';
     font-weight: 900;
     font-size: 16px;
     line-height: 26px;
@@ -275,8 +252,7 @@ body {
     width: 100%;
     height: 72px;
     position: absolute;
-    top: 50px;
-    font-family: 'Red Hat Display';
+    top: 17.6%;
     font-weight: 900;
     font-size: min(8vw,32px);
     line-height: 36px;
@@ -289,13 +265,9 @@ body {
     width: 100%;
     height: 130px;
     position: absolute;
-    top: 154px;
-    font-family: 'Red Hat Display';
-    font-weight: 500;
+    top: 54%;
     font-size: 16px;
-    line-height: 26px;
     color: #87879d;
-    text-align: center;
 }
 
 #footer {
@@ -330,7 +302,6 @@ body {
 }
 
 #footer #text-02 {
-    font-family: 'Red Hat Display';
     font-weight: 900;
     color: #87879d;
     position: absolute;
@@ -346,7 +317,6 @@ body {
     background-repeat: no-repeat;
     width: 100%;
     height: 478px;
-    position: absolute;
     position: absolute;
     top: 20.74%;
     bottom: 0%;
@@ -370,22 +340,10 @@ body {
 }
 
 #new-download-button:hover {
-    width: 51.2%;
-    height: 58px;
-    position: absolute;
-    left: 24.4%;
-    right: 24.4%;
-    top: 70%;
-    bottom: 13.33%;
-    border-radius: 50px;
-    color: #ffffff;
     background-color: #B18BDD;
-    border: none;
-    cursor: pointer;
 }
 
 #new-download {
-    font-family: 'Red Hat Display';
     font-size: min(4vw,16px);
     line-height: 26px;
     font-weight: 900;
@@ -397,7 +355,6 @@ body {
 
 
 #new-version {
-    font-family: 'Red Hat Display';
     font-size: min(4vw,16px);
     line-height: 26px;
     font-weight: 900;
@@ -417,7 +374,6 @@ body {
     left: 6.4%;
     right: 6.4%;
     top: 22%;
-    font-family: 'Red Hat Display';
     font-weight: 900;
     font-size: 32px;
     line-height: 36px;
@@ -433,12 +389,8 @@ body {
     right: 6.4%;
     top: 44%;
     bottom: 30%;
-    font-family: 'Red Hat Display';
-    font-weight: 500;
     font-size: 18px;
-    line-height: 26px;
     color: #fafafa;
-    text-align: center;
 }
 
 
@@ -447,6 +399,14 @@ body {
         margin: 0px;
         padding: 0px;
         width: 100%;
+        box-sizing: border-box;
+        font-family: 'Red Hat Display';
+    }
+
+    .paragraph-fonts {
+        font-weight: 500;
+        line-height: 26px;
+        text-align: center;
     }
 
     #header {
@@ -489,14 +449,11 @@ body {
         height: 303px;
     }
 
-
-
     #heading {
         position: absolute;
         top: 515px;
         left: 27.9%;
         right: 27.9%;
-        font-family: 'Red Hat Display';
         font-weight: 900;
         font-size: 48px;
         line-height: 48px;
@@ -509,11 +466,7 @@ body {
     
     #description {
         color: #87879D;
-        font-family: 'Red Hat Display';
-        font-weight: 500;
         font-size: 16px;
-        line-height: 26px;
-        text-align: center;
         width: 59.5%;
         height: 52px;
         position: absolute;
@@ -551,37 +504,27 @@ body {
     
     
     #download-button:hover {
-        width: 193px;
-        height: 58px;
-        position: absolute;
-        left: 0%;
-        border-radius: 50px;
-        color: #ffffff;
         background-color: #71C0D4;
-        border: none;
-        cursor: pointer;
     }
     
     
     #download {
-        font-family: 'Red Hat Display';
         font-size: 16px;
         line-height: 26px;
         font-weight: 900;
         width: 40%;
         position: absolute;
         top: 16px;
-        left: 20.75%;
+        left: 18.75%;
     }
     
     #version {
-        font-family: 'Red Hat Display';
         font-size: 16px;
         line-height: 26px;
         font-weight: 900;
         position: absolute;
         top: 16px;
-        left: 63.7%;
+        left: 66.7%;
         height: 26px;
         width: 15.5%;
         color: #8fe3f9;
@@ -597,7 +540,6 @@ body {
         border-radius: 50px;
         border: none;
         color: #ffffff;
-        font-family: 'Red Hat Display';
         font-weight: 900;
         font-size: 16px;
         line-height: 26px;
@@ -606,20 +548,7 @@ body {
     
     
     #what-button:hover {
-        width: 139px;
-        height: 58px;
-        position: absolute;
-        top: 0%;
-        left: 60%;
         background-color: #B18BDD;
-        border-radius: 50px;
-        border: none;
-        color: #ffffff;
-        font-family: 'Red Hat Display';
-        font-weight: 900;
-        font-size: 16px;
-        line-height: 26px;
-        cursor: pointer;
     }
 
 
@@ -653,7 +582,6 @@ body {
     }
     
     #text-01 {
-        font-family: 'Red Hat Display';
         font-weight: 900;
         color: #87879d;
         position: absolute;
@@ -697,7 +625,6 @@ body {
         position: absolute;
         left: 26.1%;
         right: 26.1%;
-        font-family: 'Red Hat Display';
         font-weight: 900;
         font-size: 16px;
         line-height: 26px;
@@ -713,7 +640,6 @@ body {
         top: 17.5%;
         left: 11.3%;
         right: 11.3%;
-        font-family: 'Red Hat Display';
         font-weight: 900;
         font-size: 40px;
         line-height: 44px;
@@ -727,12 +653,8 @@ body {
         height: 78px;
         position: absolute;
         top: 67.5%;
-        font-family: 'Red Hat Display';
-        font-weight: 500;
         font-size: 16px;
-        line-height: 26px;
         color: #87879d;
-        text-align: center;
     }
 
 
@@ -768,7 +690,6 @@ body {
     }
     
     #footer #text-02 {
-        font-family: 'Red Hat Display';
         font-weight: 900;
         color: #87879d;
         position: absolute;
@@ -784,7 +705,6 @@ body {
         background-repeat: no-repeat;
         width: 100%;
         height: 478px;
-        position: absolute;
         position: absolute;
         top: 20.74%;
         bottom: 0%;
@@ -807,40 +727,28 @@ body {
     }
     
     #new-download-button:hover {
-        width: 25.2%;
-        height: 58px;
-        position: absolute;
-        left: 37.4%;
-        right: 37.4%;
-        top: 71%;
-        border-radius: 50px;
-        color: #ffffff;
         background-color: #B18BDD;
-        border: none;
-        cursor: pointer;
     }
     
     #new-download {
-        font-family: 'Red Hat Display';
         font-size: 16px;
         line-height: 26px;
         font-weight: 900;
         position: absolute;
         width: 40%;
         top: 16px;
-        left: 20.75%;
+        left: 18.75%;
     }
     
     
     
     #new-version {
-        font-family: 'Red Hat Display';
         font-size: 16px;
         line-height: 26px;
         font-weight: 900;
         position: absolute;
         top: 16px;
-        left: 63.7%;
+        left: 66.7%;
         height: 26px;
         width: 15.5%;
         color: #D9B8FF;
@@ -854,7 +762,6 @@ body {
         left: 20.25%;
         right: 20.25%;
         top: 22%;
-        font-family: 'Red Hat Display';
         font-weight: 900;
         font-size: 40px;
         line-height: 44px;
@@ -868,14 +775,10 @@ body {
         position: absolute;
         left: 12.6%;
         right: 12.6%;
-        top: 44%;
+        top: 49%;
         bottom: 30%;
-        font-family: 'Red Hat Display';
-        font-weight: 500;
         font-size: 18px;
-        line-height: 26px;
         color: #fafafa;
-        text-align: center;
     }
 
 }
@@ -886,10 +789,17 @@ body {
         padding: 0px;
         margin: 0px;
         width: 1440px;
+        font-family: 'Red Hat Display';
     }
 
     #header {
         display: none;
+    }
+
+    .paragraph-fonts {
+        font-weight: 500;
+        line-height: 26px;
+        text-align: center;
     }
 
    
@@ -932,7 +842,6 @@ body {
         top: 0%;
         left: 8.8%;
         right: 8.8%;
-        font-family: 'Red Hat Display';
         font-weight: 900;
         font-size: 48px;
         line-height: 48px;
@@ -946,11 +855,7 @@ body {
     
     #description {
         color: #87879D;
-        font-family: 'Red Hat Display';
-        font-weight: 500;
         font-size: 16px;
-        line-height: 26px;
-        text-align: center;
         width: 100%;
         height: 52px;
         position: absolute;
@@ -982,38 +887,27 @@ body {
     
     
     #download-button:hover {
-        width: 193px;
-        height: 58px;
-        position: absolute;
-        top: 0%;
-        left: 0%;
-        border-radius: 50px;
-        color: #ffffff;
         background-color: #71C0D4;
-        border: none;
-        cursor: pointer;
     }
     
     
     #download {
-        font-family: 'Red Hat Display';
         font-size: 16px;
         line-height: 26px;
         font-weight: 900;
         position: absolute;
         width: 40%;
         top: 16px;
-        left: 20.75%;
+        left: 18.75%;
     }
     
     #version {
-        font-family: 'Red Hat Display';
         font-size: 16px;
         line-height: 26px;
         font-weight: 900;
         position: absolute;
         top: 16px;
-        left: 63.7%;
+        left: 66.7%;
         height: 26px;
         width: 15.5%;
         color: #8fe3f9;
@@ -1029,7 +923,6 @@ body {
         border-radius: 50px;
         border: none;
         color: #ffffff;
-        font-family: 'Red Hat Display';
         font-weight: 900;
         font-size: 16px;
         line-height: 26px;
@@ -1038,20 +931,7 @@ body {
     
     
     #what-button:hover {
-        width: 139px;
-        height: 58px;
-        position: absolute;
-        top: 0%;
-        left: 60%;
         background-color: #B18BDD;
-        border-radius: 50px;
-        border: none;
-        color: #ffffff;
-        font-family: 'Red Hat Display';
-        font-weight: 900;
-        font-size: 16px;
-        line-height: 26px;
-        cursor: pointer;
     }
 
 
@@ -1085,7 +965,6 @@ body {
     }
     
     #text-01 {
-        font-family: 'Red Hat Display';
         font-weight: 900;
         color: #87879d;
         position: absolute;
@@ -1130,7 +1009,6 @@ body {
         position: absolute;
         left: 24.6%;
         right: 24.6%;
-        font-family: 'Red Hat Display';
         font-weight: 900;
         font-size: 16px;
         line-height: 26px;
@@ -1145,7 +1023,6 @@ body {
         position: absolute;
         top: 17.5%;
         left: 8.8%;
-        font-family: 'Red Hat Display';
         font-weight: 900;
         font-size: min(3vw,40px);
         line-height: 44px;
@@ -1159,12 +1036,8 @@ body {
         height: 78px;
         position: absolute;
         top: 67.5%;
-        font-family: 'Red Hat Display';
-        font-weight: 500;
         font-size: 16px;
-        line-height: 26px;
         color: #87879d;
-        text-align: center;
     }
 
 
@@ -1195,38 +1068,28 @@ body {
     }
     
     #new-download-button:hover {
-        width: 193px;
-        height: 58px;
-        position: absolute;
-        left: 74%;
-        top: 42.5%;
-        border-radius: 50px;
-        color: #ffffff;
         background-color: #B18BDD;
-        border: none;
     }
     
     #new-download {
-        font-family: 'Red Hat Display';
         font-size: 16px;
         line-height: 26px;
         font-weight: 900;
         position: absolute;
         top: 16px;
-        left: 20.75%;
+        left: 18.75%;
         width: 40%;
     }
     
     
     
     #new-version {
-        font-family: 'Red Hat Display';
         font-size: 16px;
         line-height: 26px;
         font-weight: 900;
         position: absolute;
         top: 16px;
-        left: 63.7%;
+        left: 66.7%;
         height: 26px;
         width: 15.5%;
         color: #D9B8FF;
@@ -1239,7 +1102,6 @@ body {
         position: absolute;
         left: 11.4%;
         top: 26%;
-        font-family: 'Red Hat Display';
         font-weight: 900;
         font-size: 40px;
         line-height: 44px;
@@ -1254,12 +1116,8 @@ body {
         left: 41.5%;
         top: 29%;
         bottom: 30%;
-        font-family: 'Red Hat Display';
-        font-weight: 500;
         font-size: 18px;
-        line-height: 26px;
         color: #fafafa;
-        text-align: center;
     }
 
     #footer {
@@ -1294,7 +1152,6 @@ body {
     }
     
     #footer #text-02 {
-        font-family: 'Red Hat Display';
         font-weight: 900;
         color: #87879d;
         position: absolute;
@@ -1302,6 +1159,4 @@ body {
         left: 50%;
         transform: translate(-50%,-50%);
     }
-
-
 }
