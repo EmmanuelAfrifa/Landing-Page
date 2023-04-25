@@ -325,12 +325,12 @@ body {
 
 
 #new-download-button {
-    width: 51.2%;
+    width: 193px;
     height: 58px;
     position: absolute;
-    left: 24.4%;
-    right: 24.4%;
     top: 70%;
+    left: 50%;
+    transform: translate(-50%,0%);
     bottom: 13.33%;
     border-radius: 50px;
     color: #ffffff;
@@ -349,7 +349,7 @@ body {
     font-weight: 900;
     position: absolute;
     top: 16px;
-    left: 20.75%;
+    left: 18.75%;
 }
 
 
@@ -360,7 +360,7 @@ body {
     font-weight: 900;
     position: absolute;
     top: 16px;
-    left: 63.7%;
+    left: 66.7%;
     height: 26px;
     width: 15.5%;
     color: #D9B8FF;
@@ -716,9 +716,10 @@ body {
         width: 25.2%;
         height: 58px;
         position: absolute;
-        left: 37.4%;
+        left: 50%;
         right: 37.4%;
         top: 71%;
+        transform: translate(-50%,0%);
         border-radius: 50px;
         color: #ffffff;
         background-color: #855FB1;
@@ -1061,6 +1062,7 @@ body {
         position: absolute;
         left: 74%;
         top: 42.5%;
+        transform: translate(5%,0%);
         border-radius: 50px;
         color: #ffffff;
         background-color: #855FB1;
