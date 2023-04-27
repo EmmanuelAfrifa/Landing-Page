@@ -663,9 +663,10 @@ body {
         font-weight: 900;
         font-size: min(8vw,32px);
         line-height: 36px;
-        padding: 5px 530px;
+
         color: #28283d;
         text-align: center;
+        width: 400px;
     }
     
     #purpose p {
