@@ -1,4 +1,4 @@
-# landing-page
+# Meet landing page
 This repository contains the source code for a landing page.
 
 ## Table of contents
@@ -31,7 +31,7 @@ I learned that it is useful to use Flexbox for the layout of the page since it a
 
 ## Author
 - Emmanuel Afrifa
-- [Email](mailto:emmanuel.afrifa@amalitech.org)
+- [emmanuel.afrifa@amailtech.org](mailto:emmanuel.afrifa@amalitech.org)
 - [Twitter](https://twitter.com/Emma33712365)
 - [Linkedin](https://www.linkedin.com/in/emmanuel-afrifa-840674214/)
 
