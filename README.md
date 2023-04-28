@@ -31,7 +31,7 @@ I learned that it is useful to use Flexbox for the layout of the page since it a
 
 ## Author
 - Emmanuel Afrifa
-- [Email](emmanuel.afrifa@amalitech.org)
+- [Email](mailto:emmanuel.afrifa@amalitech.org)
 - [Twitter](https://twitter.com/Emma33712365)
 - [Linkedin](https://www.linkedin.com/in/emmanuel-afrifa-840674214/)
 
