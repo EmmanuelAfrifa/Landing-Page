@@ -599,11 +599,14 @@ html, body {
 
     #heading {
         font-weight: 900;
-        font-size: 48px;
+        font-size: 64px;
         padding: 0px 100px;
         line-height: 48px;
+        width: 445px;
+        line-height: 64px;
         text-align: center;
         color: #28283D;
+        margin-bottom: 0px;
     }
     
     #description {
